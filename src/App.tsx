@@ -1,10 +1,15 @@
+import { Container } from './components/Container'
+import ListaContatos from './components/ListaContatos/ListaContatos'
 import GlobalStyles from './styles/globalStyles'
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <div>Olá Mundo!</div>
+      <Container>
+        <ListaContatos />
+        <div>Dados do Contato</div>
+      </Container>
     </>
   )
 }
