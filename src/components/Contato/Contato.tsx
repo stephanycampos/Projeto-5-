@@ -12,6 +12,10 @@ const Contato = () => {
         <LetraIndice>E</LetraIndice>
         <NomeContato>Eugenia Menezes</NomeContato>
       </ContainerInsideFlex>
+      <ContainerInsideFlex>
+        <LetraIndice>T</LetraIndice>
+        <NomeContato>Thiago Sousa</NomeContato>
+      </ContainerInsideFlex>
     </>
   )
 }

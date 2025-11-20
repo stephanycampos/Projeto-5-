@@ -12,7 +12,24 @@ export const PrimaryButton = styled.button`
   width: fit-content;
   cursor: pointer;
 
-  :hover {
-    color: ${colors.emphasis};
+  &:hover {
+    background-color: ${colors.primary};
+    opacity: 0.8;
+  }
+`
+export const SecondaryButton = styled(PrimaryButton)`
+  background-color: ${colors.emphasis};
+
+  &:hover {
+    background-color: ${colors.emphasis};
+    opacity: 0.8;
+  }
+`
+export const AlertButton = styled(PrimaryButton)`
+  background-color: ${colors.alertPrimary};
+
+  &:hover {
+    background-color: ${colors.alertPrimary};
+    opacity: 0.8;
   }
 `

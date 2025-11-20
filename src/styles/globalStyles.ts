@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import { colors } from './colors'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -6,6 +7,14 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kantumruy Pro', sans-serif;
-  }`
+  }
+
+  body {
+    height: 100%;
+    background: linear-gradient(to bottom, ${colors.offWhite}, ${colors.tertiary});
+    background-attachment: fixed;
+  }
+
+  `
 
 export default GlobalStyle

@@ -10,3 +10,19 @@ export const Subtitle = styled(Title).attrs({ as: 'h2' })`
   font-size: 24px;
   color: ${colors.secondary};
 `
+export const Text = styled.p`
+  font-size: 12px;
+  font-weight: 500;
+  color: ${colors.secondary};
+`
+
+export const EmphasisText = styled(Text)`
+  font-size: 12px;
+  font-weight: 700;
+  color: ${colors.primary};
+`
+
+export const EmphasisTitle = styled(Title).attrs({ as: 'h3' })`
+  font-size: 20px;
+  color: ${colors.primary};
+`

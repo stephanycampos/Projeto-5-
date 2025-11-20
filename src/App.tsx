@@ -1,4 +1,5 @@
 import { Container } from './components/Container'
+import DadosContato from './components/DadosContato/DadosContato'
 import ListaContatos from './components/ListaContatos/ListaContatos'
 import GlobalStyles from './styles/globalStyles'
 
@@ -8,7 +9,7 @@ function App() {
       <GlobalStyles />
       <Container>
         <ListaContatos />
-        <div>Dados do Contato</div>
+        <DadosContato />
       </Container>
     </>
   )
