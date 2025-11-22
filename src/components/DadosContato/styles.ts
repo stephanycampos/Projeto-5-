@@ -9,6 +9,7 @@ export const DadosContainer = styled.div`
   background-color: ${colors.tertiary};
   border: 1px solid ${colors.secondary};
   border-radius: 20px;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
 `
 
 export const DadosLetra = styled.span`
@@ -34,6 +35,11 @@ export const InfoContainer = styled.div`
   margin-bottom: 24px;
   background-color: ${colors.offWhite};
   border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
+  }
 `
 
 export const ActionsContainer = styled.div`

@@ -1,4 +1,5 @@
 import { AlertButton, PrimaryButton, SecondaryButton } from '../Buttons'
+import { Line } from '../ListaAlfabetica/styles'
 import { EmphasisText, EmphasisTitle, Text } from '../Texts'
 import * as S from './styles'
 
@@ -10,7 +11,7 @@ const DadosContato = () => {
       <S.InfoContainer>
         <EmphasisText>Telefone:</EmphasisText>
         <Text>+55 92 98100-0000</Text>
-        <hr />
+        <Line />
         <EmphasisText>E-mail:</EmphasisText>
         <Text>thiago@gmail.com</Text>
       </S.InfoContainer>

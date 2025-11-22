@@ -9,10 +9,11 @@ export const LetraIndice = styled.span`
   background-color: ${colors.primary};
   border-radius: 50%;
   cursor: pointer;
+  transition: box-shadow 0.3s ease;
 
   &:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     background-color: ${colors.primary};
-    opacity: 0.8;
   }
 `
 
