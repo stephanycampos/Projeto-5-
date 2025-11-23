@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom'
 import { ContainerGeneral } from './styles'
-import ListaContatos from '../ListaContatos/ListaContatos' // Deixe o import
+import ListaContatos from '../ListaContatos/ListaContatos'
 
 export const Container = () => {
   return (
